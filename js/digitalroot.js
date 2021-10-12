@@ -8,10 +8,10 @@ let n = prompt("numero")
 
 function digital_root(n) {
   
-  arrayN = n.toString()
+  let arrayN = n.toString()
   
   let length = arrayN.length
-  
+
   let sum
   
   if (length <= 1) {
@@ -43,5 +43,6 @@ function digital_root(n) {
   }
 
 }
+
 let resultado = digital_root(n)
 console.log( "return: "+resultado)
